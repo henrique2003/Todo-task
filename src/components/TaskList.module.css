@@ -1,0 +1,25 @@
+.taskList {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.taskListActive {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-top: 1px solid transparent;
+}

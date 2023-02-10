@@ -1,0 +1,30 @@
+.emptyList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emptyList svg {
+  color: var(--gray-400);
+  margin-bottom: 16px;
+  font-size: 70px;
+  margin-top: 70px;
+}
+
+.emptyList strong {
+  text-align: center;
+  color: var(--gray-300);
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.emptyList p {
+  text-align: center;
+  color: var(--gray-300);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 2px;
+}

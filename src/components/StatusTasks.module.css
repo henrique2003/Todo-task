@@ -1,0 +1,28 @@
+.status_taks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 730px;
+  margin-top: 50px;
+}
+
+.status_taks p {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.status_taks p:last-child {
+  color: var(--purple);
+}
+
+.status_taks p span {
+  font-size: 13px;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 4px 7px;
+  border-radius: 8px;
+  font-weight: normal;
+  margin-left: 5px;
+}
